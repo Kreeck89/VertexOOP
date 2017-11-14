@@ -20,7 +20,7 @@ public class DateCalendarFormat {
         dateFormat.format(DateFormat.SHORT);
         System.out.println(dateFormat.format(calendar.getTime()));
 
-        Date dateForTest = new Date();
+        Date dateForTest;
         dateForTest = getLongFromDate();
         System.out.println(dateForTest);
         calendar.setTime(dateForTest);
