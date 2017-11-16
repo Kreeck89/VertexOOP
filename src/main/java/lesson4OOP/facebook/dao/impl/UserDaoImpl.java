@@ -12,4 +12,15 @@ public class UserDaoImpl implements UserDao {
     public List<User> getAllUsers() {
         return Database.getAllUsers();
     }
+
+    @Override
+    public User getByName(String name) {
+        List<User> allUsers = Database.getAllUsers();
+        for (User elem : allUsers) {
+            if (name.equals(elem.getName())) {
+                return elem;
+            }
+        }
+        return null;
+    }
 }
