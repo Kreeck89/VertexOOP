@@ -1,4 +1,4 @@
-package lesson6OOP.work1.Military;
+package lesson6OOP.Work1.Military;
 
 public abstract class Military {
 

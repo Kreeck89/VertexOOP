@@ -1,6 +1,6 @@
-package lesson6OOP.work1.Texts;
+package lesson6OOP.Work1.Texts;
 
-import lesson6OOP.work1.Military.Military;
+import lesson6OOP.Work1.Military.Military;
 
 public class Print1 extends Military {
 

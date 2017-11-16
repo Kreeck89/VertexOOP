@@ -1,8 +1,8 @@
-package lesson6OOP.work1.Military;
+package lesson6OOP.Work1.Military;
 
-import lesson6OOP.work1.Texts.Print1;
-import lesson6OOP.work1.Texts.Print2;
-import lesson6OOP.work1.Texts.Print3;
+import lesson6OOP.Work1.Texts.Print1;
+import lesson6OOP.Work1.Texts.Print2;
+import lesson6OOP.Work1.Texts.Print3;
 
 public class MilitaryService {
 
