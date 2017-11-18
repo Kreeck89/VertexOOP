@@ -16,5 +16,6 @@ public class MilitaryService {
 
         Military print3 = new Print3();
         print3.serve();
+        print3.otherService();
     }
 }
