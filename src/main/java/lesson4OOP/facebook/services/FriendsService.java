@@ -7,4 +7,6 @@ import java.util.List;
 public interface FriendsService {
 
     List<Friends> getAllFriends();
+
+    List<Friends> getByName(String name);
 }

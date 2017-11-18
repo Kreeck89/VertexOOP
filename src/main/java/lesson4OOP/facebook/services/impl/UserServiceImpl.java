@@ -15,10 +15,26 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User getByName(String string) {
-        if (string == null) {
-            return new User();
+    public List<User> getByName(String name) {
+        if (name != null) {
+            return DaoFactory.getUserDao().getByName(name);
         }
-            return DaoFactory.getUserDao().getByName(string);
+        return null;
+    }
+
+    @Override
+    public List<User> getBySurname(String surname) {
+        if (surname != null) {
+            return DaoFactory.getUserDao().getBySurname(surname);
+        }
+        return null;
+    }
+
+    @Override
+    public List<User> getByAge(int age) {
+        if (age > 0) {
+            return DaoFactory.getUserDao().getByAge(age);
+        }
+        return null;
     }
 }

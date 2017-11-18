@@ -14,10 +14,25 @@ public class UserController {
         UserService allUsers = ServiceFactory.getAllUsers();
         for (User elem : allUsers.getAllUser()) {
             System.out.println();
-            System.out.println(elem.getName());
+            System.out.println(elem);
         }
 
-        String name = null;
-        System.out.println(allUsers.getByName(name));
+        String name = "Aleksandr";
+        List<User> byName = allUsers.getByName(name);
+        for (User elem : byName) {
+            System.out.println(elem);
+        }
+
+        String surname = "Yarov";
+        List<User> bySurname = allUsers.getBySurname(surname);
+        for (User elem : bySurname) {
+            System.out.println(elem);
+        }
+
+        int age = 30;
+        List<User> byAge = allUsers.getByAge(age);
+        for (User elem : byAge) {
+            System.out.println(elem);
+        }
     }
 }

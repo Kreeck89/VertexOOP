@@ -6,7 +6,9 @@ import java.util.List;
 
 public interface UserService {
 
-    public List<User> getAllUser();
+    List<User> getAllUser();
 
-    public User getByName (String string);
+    List<User> getByName(String name);
+    List<User> getBySurname(String surname);
+    List<User> getByAge(int age);
 }

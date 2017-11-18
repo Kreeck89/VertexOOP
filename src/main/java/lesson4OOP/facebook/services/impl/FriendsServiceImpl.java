@@ -13,4 +13,12 @@ public class FriendsServiceImpl implements FriendsService {
         FriendsDao allFriend = DaoFactory.getFriendDao();
         return allFriend.getAllFriends();
     }
+
+    @Override
+    public List<Friends> getByName(String name) {
+        if (name != null) {
+            return DaoFactory.getFriendDao().getByName(name);
+        }
+        return null;
+    }
 }

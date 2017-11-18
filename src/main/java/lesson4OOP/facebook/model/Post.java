@@ -1,9 +1,12 @@
 package lesson4OOP.facebook.model;
 
+import java.util.Date;
+
 public class Post {
 
     private String title;
     private String discription;
+    private Date datePost;
 
     public String getTitle() {
         return title;
@@ -21,12 +24,23 @@ public class Post {
         this.discription = discription;
     }
 
+    public Date getDatePost() {
+        return datePost;
+    }
+
+    public void setDatePost(Date datePost) {
+        this.datePost = datePost;
+    }
+
     @Override
     public String toString() {
         return "Title: "
                 + getTitle()
                 + "\n"
                 + "Discription: "
-                + getDiscription();
+                + getDiscription()
+                + "\n"
+                + "Date realise: "
+                + getDatePost();
     }
 }

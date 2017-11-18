@@ -15,5 +15,10 @@ public class FriendsController {
         for (Friends elem : allFriends.getAllFriends()) {
             System.out.println(elem);
         }
+        String name = "Valera";
+        List<Friends> byName = allFriends.getByName(name);
+        for (Friends elem : byName) {
+            System.out.println(elem);
+        }
     }
 }
