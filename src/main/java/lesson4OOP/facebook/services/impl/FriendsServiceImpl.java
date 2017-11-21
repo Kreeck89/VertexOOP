@@ -10,14 +10,14 @@ import java.util.List;
 public class FriendsServiceImpl implements FriendsService {
     @Override
     public List<Friends> getAllFriends() {
-        FriendsDao allFriend = DaoFactory.getFriendDao();
+        FriendsDao allFriend = DaoFactory.getFriendDaoMethods();
         return allFriend.getAllFriends();
     }
 
     @Override
     public List<Friends> getByName(String name) {
         if (name != null) {
-            return DaoFactory.getFriendDao().getByName(name);
+            return DaoFactory.getFriendDaoMethods().getByName(name);
         }
         return null;
     }

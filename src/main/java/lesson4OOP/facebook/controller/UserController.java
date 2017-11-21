@@ -3,7 +3,6 @@ package lesson4OOP.facebook.controller;
 import lesson4OOP.facebook.model.User;
 import lesson4OOP.facebook.services.UserService;
 import lesson4OOP.facebook.services.factory.ServiceFactory;
-import lesson4OOP.facebook.services.impl.UserServiceImpl;
 
 import java.util.List;
 
@@ -11,7 +10,7 @@ public class UserController {
 
     public static void main(String[] args) {
 
-        UserService allUsers = ServiceFactory.getAllUsers();
+        UserService allUsers = ServiceFactory.getAllUsersMethods();
         for (User elem : allUsers.getAllUser()) {
             System.out.println();
             System.out.println(elem);

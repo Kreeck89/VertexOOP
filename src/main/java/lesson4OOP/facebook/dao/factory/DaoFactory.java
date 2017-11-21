@@ -12,21 +12,21 @@ public class DaoFactory {
     /**
      * @return instance of {@link UserDaoImpl}
      */
-    public static UserDao getUserDao() {
+    public static UserDao getUserDaoMethods() {
         return new UserDaoImpl();
     }
 
     /**
      * @return instance of {@link PostDaoImpl}
      */
-    public static PostDao getPostDao() {
+    public static PostDao getPostDaoMethods() {
         return new PostDaoImpl();
     }
 
     /**
      * @return instance of {@link FriendDaoImpl}
      */
-    public static FriendsDao getFriendDao() {
+    public static FriendsDao getFriendDaoMethods() {
         return new FriendDaoImpl();
     }
 }

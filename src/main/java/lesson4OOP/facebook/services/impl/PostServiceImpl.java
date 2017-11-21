@@ -11,14 +11,14 @@ import java.util.List;
 public class PostServiceImpl implements PostService {
     @Override
     public List<Post> getAllPost() {
-        PostDao allPost = DaoFactory.getPostDao();
+        PostDao allPost = DaoFactory.getPostDaoMethods();
         return allPost.getAllPost();
     }
 
     @Override
     public List<Post> getByTitle(String word) {
         if (!word.equals("")) {
-            return DaoFactory.getPostDao().getByTitle(word);
+            return DaoFactory.getPostDaoMethods().getByTitle(word);
         }
         return null;
     }
@@ -26,7 +26,7 @@ public class PostServiceImpl implements PostService {
     @Override
     public List<Post> getByDate(Date date) {
         if (date != null) {
-            return DaoFactory.getPostDao().getByDate(date);
+            return DaoFactory.getPostDaoMethods().getByDate(date);
         }
         return null;
     }

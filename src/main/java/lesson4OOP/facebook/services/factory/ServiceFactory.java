@@ -12,21 +12,21 @@ public class ServiceFactory {
     /**
      * @return instance of {@link UserServiceImpl}
      */
-    public static UserService getAllUsers() {
+    public static UserService getAllUsersMethods() {
         return new UserServiceImpl();
     }
 
     /**
      * @return instance of {@link PostServiceImpl}
      */
-    public static PostService getAllPosts() {
+    public static PostService getAllPostsMethods() {
         return new PostServiceImpl();
     }
 
     /**
      * @return instance of {@link FriendsServiceImpl}
      */
-    public static FriendsService getAllFriends() {
+    public static FriendsService getAllFriendsMethods() {
         return new FriendsServiceImpl();
     }
 }

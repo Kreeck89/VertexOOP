@@ -10,14 +10,14 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     @Override
     public List<User> getAllUser() {
-        UserDao allUser = DaoFactory.getUserDao();
+        UserDao allUser = DaoFactory.getUserDaoMethods();
         return allUser.getAllUsers();
     }
 
     @Override
     public List<User> getByName(String name) {
         if (name != null) {
-            return DaoFactory.getUserDao().getByName(name);
+            return DaoFactory.getUserDaoMethods().getByName(name);
         }
         return null;
     }
@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> getBySurname(String surname) {
         if (surname != null) {
-            return DaoFactory.getUserDao().getBySurname(surname);
+            return DaoFactory.getUserDaoMethods().getBySurname(surname);
         }
         return null;
     }
@@ -33,7 +33,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> getByAge(int age) {
         if (age > 0) {
-            return DaoFactory.getUserDao().getByAge(age);
+            return DaoFactory.getUserDaoMethods().getByAge(age);
         }
         return null;
     }
