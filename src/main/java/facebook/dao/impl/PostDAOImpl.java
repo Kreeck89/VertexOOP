@@ -8,6 +8,13 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Have some methods for return lists by parameters called from Database.
+ *
+ * "getAllPost" returns list with all posts from database;
+ * "getByTitle" returns list with all posts, who have equals Word;
+ * "getByDate" returns list with all posts, who have equals date;
+ */
 public class PostDAOImpl implements PostDAO {
     @Override
     public List<Post> getAllPosts() {

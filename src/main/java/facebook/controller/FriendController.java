@@ -6,6 +6,9 @@ import facebook.service.factory.ServiceFactory;
 
 import java.util.List;
 
+/**
+ * Implementation of any methods from {@link FriendService}
+ */
 public class FriendController {
 
     public static void main(String[] args) {

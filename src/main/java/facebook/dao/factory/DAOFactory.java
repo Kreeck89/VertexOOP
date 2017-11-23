@@ -9,6 +9,10 @@ import facebook.dao.impl.GroupDAOImpl;
 import facebook.dao.impl.PostDAOImpl;
 import facebook.dao.impl.UserDAOImpl;
 
+/**
+ * Pattern for easy uses dao.
+ * @return different instance of DAO-realisations.
+ */
 public class DAOFactory {
 
     /**

@@ -6,6 +6,9 @@ import facebook.service.factory.ServiceFactory;
 
 import java.util.List;
 
+/**
+ * Implementation of any methods from {@link GroupService}
+ */
 public class GroupController {
 
     public static void main(String[] args) {

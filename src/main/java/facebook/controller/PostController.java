@@ -7,6 +7,9 @@ import facebook.service.factory.ServiceFactory;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Implementation of any methods from {@link PostService}
+ */
 public class PostController {
 
     public static void main(String[] args) {

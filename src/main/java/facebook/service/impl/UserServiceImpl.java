@@ -7,7 +7,12 @@ import facebook.service.UserService;
 
 import java.util.List;
 
-public class UserSericeImpl implements UserService {
+/**
+ * With DAOFactory pattern calls any methods from UserDAO.
+ *
+ * If methods with parameters, checks "notNull" or "!=0".
+ */
+public class UserServiceImpl implements UserService {
     @Override
     public List<User> getAllUsers() {
         UserDAO allUsersMethods = DAOFactory.getUserDAOMethods();

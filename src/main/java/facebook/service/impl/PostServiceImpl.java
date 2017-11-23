@@ -8,6 +8,11 @@ import facebook.service.PostService;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * With DAOFactory pattern calls any methods from PostDAO.
+ *
+ * If methods with parameters, checks "notNull" or "!=0".
+ */
 public class PostServiceImpl implements PostService {
     @Override
     public List<Post> getAllPosts() {

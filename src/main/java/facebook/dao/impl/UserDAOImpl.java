@@ -7,6 +7,15 @@ import facebook.model.User;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Have some methods for return lists by parameters called from Database.
+ *
+ * "getAllUser" returns list with all users from database;
+ * "getByName" returns list with all users, who have equals Name;
+ * "getBySurname" returns list with all users, who have equals Surname;
+ * "getByAge" returns list with all users, who have = age;
+ * "getByMaritalStatus" returns list with all users, who have equals Status.
+ */
 public class UserDAOImpl implements UserDAO {
     @Override
     public List<User> getAllUsers() {

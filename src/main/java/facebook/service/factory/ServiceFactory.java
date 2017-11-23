@@ -7,15 +7,19 @@ import facebook.service.UserService;
 import facebook.service.impl.FriendServiceImpl;
 import facebook.service.impl.GroupServiceImpl;
 import facebook.service.impl.PostServiceImpl;
-import facebook.service.impl.UserSericeImpl;
+import facebook.service.impl.UserServiceImpl;
 
+/**
+ * Pattern for easy uses service.
+ * @return different instance of Service-realisations.
+ */
 public class ServiceFactory {
 
     /**
-     * @return instance of {@link UserSericeImpl}
+     * @return instance of {@link UserServiceImpl}
      */
     public static UserService getAllUsersMethods() {
-        return new UserSericeImpl();
+        return new UserServiceImpl();
     }
 
     /**

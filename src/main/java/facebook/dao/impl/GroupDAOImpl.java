@@ -7,6 +7,13 @@ import facebook.model.Group;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Have some methods for return lists by parameters called from Database.
+ *
+ * "getAllGroups" returns list with all groups from database;
+ * "getByName" returns list with all groups, who have equals Name;
+ * "getByFollowers" returns list with all groups, who have followers under followers-parameter received;
+ */
 public class GroupDAOImpl implements GroupDAO {
 
 

@@ -7,6 +7,11 @@ import facebook.service.GroupService;
 
 import java.util.List;
 
+/**
+ * With DAOFactory pattern calls any methods from GroupDAO.
+ *
+ * If methods with parameters, checks "notNull" or "!=0".
+ */
 public class GroupServiceImpl implements GroupService {
     @Override
     public List<Group> getAllGroups() {

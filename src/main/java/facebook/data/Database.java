@@ -12,6 +12,10 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * All created models.
+ * And added methods "getAll..." for return all exemplars of model.
+ */
 public class Database {
 
     public static List<User> getAllUsers() {

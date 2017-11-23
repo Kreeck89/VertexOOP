@@ -7,6 +7,11 @@ import facebook.service.FriendService;
 
 import java.util.List;
 
+/**
+ * With DAOFactory pattern calls any methods from FriendDAO.
+ *
+ * If methods with parameters, checks "notNull" or "!=0".
+ */
 public class FriendServiceImpl implements FriendService {
     @Override
     public List<Friend> getAllFriends() {
