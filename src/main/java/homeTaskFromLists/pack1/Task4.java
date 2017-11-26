@@ -1,15 +1,16 @@
-package lesson2OOP.HomeWork.homeWorkFromLists;
+package homeTaskFromLists.pack1;
 
 /**
- * My method Equals.
+ * Task from lists, page 10 (task 6).
+ *
+ * My method "Equals" without javas equals.
  */
-public class HomeTask6 {
+public class Task4 {
 
     public static void main(String[] args) {
-        String string1 = "Privet";
-        String string2 = "Privet";
-
-        System.out.println(myEquals(string1, string2));
+        String st1 = "Text;";
+        String st2 = "Text;";
+        System.out.println("Result method myEquals is: " + myEquals(st1, st2));
     }
 
     private static boolean myEquals(String st1, String st2) {
