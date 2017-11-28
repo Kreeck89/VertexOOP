@@ -5,6 +5,8 @@ import homeTaskFromLists.pack2.model.Car;
 import java.util.Random;
 
 /**
+ * Task from list, page 13 (task 1-4).
+ *
  * Different testing with Car methods by tasks from papers.
  */
 public class MainCar {
