@@ -10,7 +10,7 @@ import facebook.service.impl.PostServiceImpl;
 import facebook.service.impl.UserServiceImpl;
 
 /**
- * Pattern for easy uses service.
+ * Pattern for easy uses phoneService.
  * @return different instance of Service-realisations.
  */
 public class ServiceFactory {

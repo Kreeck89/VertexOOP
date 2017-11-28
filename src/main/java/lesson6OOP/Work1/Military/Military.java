@@ -5,6 +5,6 @@ public abstract class Military {
     abstract public void serve();
 
     public void otherService() {
-        System.out.println("Test some service.");
+        System.out.println("Test some phoneService.");
     }
 }
