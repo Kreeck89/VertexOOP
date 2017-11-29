@@ -1,11 +1,14 @@
 package homeTaskFromLists.pack2.model;
 
+import homeTaskFromLists.pack5.Track;
+
 public class Car {
 
     private String number;
     private String color;
     private int countPassenger;
     private CarsState carState;
+    private Track track;
 
     /**
      * Method for print parameters of car.
@@ -119,6 +122,18 @@ public class Car {
 
     public void setCarState(CarsState carState) {
         this.carState = carState;
+    }
+
+    public Track getTrack() {
+        return track;
+    }
+
+    public void setTrack(Track track) {
+        this.track = track;
+    }
+
+    public void unSetTrack(Track track) {
+        this.track = null;
     }
 
     public enum CarsState {

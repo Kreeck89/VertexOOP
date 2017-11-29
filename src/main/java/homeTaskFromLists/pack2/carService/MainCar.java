@@ -1,6 +1,7 @@
 package homeTaskFromLists.pack2.carService;
 
 import homeTaskFromLists.pack2.model.Car;
+import homeTaskFromLists.pack5.Track;
 
 import java.util.Random;
 
@@ -21,6 +22,7 @@ public class MainCar {
         car1.setColor("Black");
         car2.setNumber("AA1111GI");
         car2.setColor("Red");
+        car1.setTrack(new Track("AA1111AA", Track.Doing.STOP));
 
         car1.printAboutMe();
         car2.printAboutMe();
