@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Have some methods for return lists by parameters called from Database.
+ * Have some methods for return lists by parameters called from CondDatabase.
  *
  * "getAllPost" returns list with all posts from database;
  * "getByTitle" returns list with all posts, who have equals Word;

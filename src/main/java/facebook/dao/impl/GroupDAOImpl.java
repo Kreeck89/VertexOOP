@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Have some methods for return lists by parameters called from Database.
+ * Have some methods for return lists by parameters called from CondDatabase.
  *
  * "getAllGroups" returns list with all groups from database;
  * "getByName" returns list with all groups, who have equals Name;

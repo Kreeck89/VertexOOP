@@ -5,7 +5,7 @@ import autoSalon.model.Car;
 import java.util.List;
 
 /**
- * gaeAllCars() - returned all instances of Car from Database;
+ * gaeAllCars() - returned all instances of Car from CondDatabase;
  * addPassenger() - Adds passengers to car and check in range -5 to 5;
  * startCar() - Starts car if did not start early and don`t move;
  * moveCar() - Starts move car if was started early and don`t moves now;

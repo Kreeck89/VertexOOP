@@ -6,7 +6,7 @@ import autoSalon.dao.impl.CarDAOImpl;
 import autoSalon.dao.impl.TrackDAOImpl;
 
 /**
- * Some pattern for easy work with Cars, Tracks and its Database.
+ * Some pattern for easy work with Cars, Tracks and its CondDatabase.
  */
 public class DAOFactory {
 

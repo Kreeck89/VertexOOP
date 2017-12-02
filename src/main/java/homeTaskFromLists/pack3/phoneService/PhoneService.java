@@ -10,8 +10,8 @@ import java.util.Random;
  * Tasks from lists, page 29 (Task 3).
  *
  * isNumberExist(String s) - check number in database;
- * call(String s, Phone p) - Print connect with send number, before checked it in Database;
- * returnRandomPhone() - return random phone number from Database.
+ * call(String s, Phone p) - Print connect with send number, before checked it in CondDatabase;
+ * returnRandomPhone() - return random phone number from CondDatabase.
  */
 public class PhoneService {
 
