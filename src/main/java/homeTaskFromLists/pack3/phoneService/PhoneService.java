@@ -45,7 +45,7 @@ public class PhoneService {
                 return;
             }
         }
-                System.out.println("Don`t have this number in database Phones!");
+                System.out.println("Don`t have this number in database Phone!");
     }
 
     private static String returnRandomPhone() {

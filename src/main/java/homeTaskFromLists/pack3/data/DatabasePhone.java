@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Tasks from lists, page 29 (Task 3).
  *
- * Base of all Phones.
+ * Base of all Phone.
  */
 public class DatabasePhone {
 
