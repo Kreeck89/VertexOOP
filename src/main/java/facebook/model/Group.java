@@ -11,11 +11,12 @@ import java.time.LocalDate;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Group {
+public class Group extends AbstractEntity {
 
     private String nameGroup;
     private long followers;
     private LocalDate dataOfCreate;
+    private long id;
 
     @Override
     public String toString() {

@@ -1,7 +1,7 @@
-package aRefrigerator.dao.factory;
+package aConditioners.dao.factory;
 
-import aRefrigerator.dao.CondDAO;
-import aRefrigerator.dao.impl.CondDAOImpl;
+import aConditioners.dao.CondDAO;
+import aConditioners.dao.impl.CondDAOImpl;
 
 /**
  * Pattern for easy work with Database and Methods of conditioners;

@@ -1,8 +1,8 @@
-package aRefrigerator.dao.impl;
+package aConditioners.dao.impl;
 
-import aRefrigerator.dao.CondDAO;
-import aRefrigerator.data.CondDatabase;
-import aRefrigerator.model.Conditioner;
+import aConditioners.dao.CondDAO;
+import aConditioners.data.CondDatabase;
+import aConditioners.model.Conditioner;
 
 import java.util.List;
 

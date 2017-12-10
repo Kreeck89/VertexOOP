@@ -1,6 +1,6 @@
-package aRefrigerator.dao;
+package aConditioners.dao;
 
-import aRefrigerator.model.Conditioner;
+import aConditioners.model.Conditioner;
 
 import java.util.List;
 

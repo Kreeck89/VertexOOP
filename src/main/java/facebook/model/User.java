@@ -9,13 +9,14 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class User extends AbstractEntity {
 
     private String name;
     private String surname;
     private String cityBorn;
     private int age;
     private String maritalStatus;
+    private long id;
 
     public enum MaritalSatusUser {
         DIVERCED,

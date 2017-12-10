@@ -1,4 +1,4 @@
-package aRefrigerator.model;
+package aConditioners.model;
 
 /**
  * Entity class with model Conditioner.

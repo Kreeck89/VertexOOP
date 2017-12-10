@@ -69,4 +69,19 @@ public class UserDAOImpl implements UserDAO {
         }
         return listByMaritalStatus;
     }
+
+    @Override
+    public void create(User user) {
+        System.out.println("User " + user.getName() + " created.");
+    }
+
+    @Override
+    public void delete(Long userId) {
+        System.out.println("User with ID " + userId + " deleted.");
+    }
+
+    @Override
+    public void update(User user) {
+        System.out.println("User " + user.getName() + " updated.");
+    }
 }

@@ -45,4 +45,19 @@ public class GroupDAOImpl implements GroupDAO {
         }
         return listByFollowers;
     }
+
+    @Override
+    public void create(Group group) {
+        System.out.println("Group " + group.getNameGroup() + " created.");
+    }
+
+    @Override
+    public void delete(Long groupId) {
+        System.out.println("Group " + groupId + " deleted.");
+    }
+
+    @Override
+    public void update(Group group) {
+        System.out.println("Group " + group.getNameGroup() + " updated.");
+    }
 }

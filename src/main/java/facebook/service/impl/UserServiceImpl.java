@@ -2,6 +2,7 @@ package facebook.service.impl;
 
 import facebook.dao.UserDAO;
 import facebook.dao.factory.DAOFactory;
+import facebook.dao.impl.UserDAOImpl;
 import facebook.model.User;
 import facebook.service.UserService;
 
@@ -49,5 +50,23 @@ public class UserServiceImpl implements UserService {
             return DAOFactory.getUserDAOMethods().getByMaritalStatus(status);
         }
         return null;
+    }
+
+    @Override
+    public void create(User user) {
+        UserDAO userDAO = new UserDAOImpl();
+        userDAO.create(user);
+    }
+
+    @Override
+    public void delete(Long userId) {
+        UserDAO userDAO = new UserDAOImpl();
+        userDAO.delete(userId);
+    }
+
+    @Override
+    public void update(User user) {
+        UserDAO userDAO = new UserDAOImpl();
+        userDAO.update(user);
     }
 }

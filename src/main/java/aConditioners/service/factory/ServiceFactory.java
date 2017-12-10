@@ -1,7 +1,7 @@
-package aRefrigerator.service.factory;
+package aConditioners.service.factory;
 
-import aRefrigerator.service.CondService;
-import aRefrigerator.service.impl.CondServiceImpl;
+import aConditioners.service.CondService;
+import aConditioners.service.impl.CondServiceImpl;
 
 /**
  * Some Pattern for easy work with Conditioners from CondController() class;

@@ -1,8 +1,8 @@
-package aRefrigerator.controller;
+package aConditioners.controller;
 
-import aRefrigerator.model.Conditioner;
-import aRefrigerator.service.CondService;
-import aRefrigerator.service.factory.ServiceFactory;
+import aConditioners.model.Conditioner;
+import aConditioners.service.CondService;
+import aConditioners.service.factory.ServiceFactory;
 
 import java.util.List;
 

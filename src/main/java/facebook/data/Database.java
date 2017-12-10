@@ -24,7 +24,8 @@ public class Database {
                 "Iushko",
                 "Siktivkar",
                 28,
-                User.MaritalSatusUser.ACTIVE_SEARCH.toString());
+                User.MaritalSatusUser.ACTIVE_SEARCH.toString(),
+                1L);
 
         User user2 = new User();
         User user3 = new User();
@@ -43,7 +44,7 @@ public class Database {
 
     public static List<Post> getAllPosts() {
         LinkedList<Post> listPosts = new LinkedList<>();
-        Post post1 = new Post("Title Example 1", "Description text in first example", new  Date());
+        Post post1 = new Post("Title Example 1", "Description text in first example", new  Date(), 1L);
         Post post2 = new Post();
         post2.setTitle("TITLE 2");
         post2.setDescription("DESCRIPTION for second Example");
@@ -55,7 +56,7 @@ public class Database {
 
     public static List<Group> getAllGroups() {
         LinkedList<Group> listGroups = new LinkedList<>();
-        Group group1 = new Group("Vertex group", 10000L, LocalDate.now());
+        Group group1 = new Group("Vertex group", 10000L, LocalDate.now(), 1L);
         Group group2 = new Group();
         group2.setNameGroup("SOG - Some Other Group");
         group2.setFollowers(1000L);

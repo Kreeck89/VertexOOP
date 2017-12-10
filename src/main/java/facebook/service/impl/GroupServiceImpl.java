@@ -2,6 +2,7 @@ package facebook.service.impl;
 
 import facebook.dao.GroupDAO;
 import facebook.dao.factory.DAOFactory;
+import facebook.dao.impl.GroupDAOImpl;
 import facebook.model.Group;
 import facebook.service.GroupService;
 
@@ -33,5 +34,23 @@ public class GroupServiceImpl implements GroupService {
             return DAOFactory.getGroupDAOMethods().getByFollowers(followers);
         }
         return null;
+    }
+
+    @Override
+    public void create(Group group) {
+        GroupDAO groupDAO = new GroupDAOImpl();
+        groupDAO.create(group);
+    }
+
+    @Override
+    public void delete(Long groupId) {
+        GroupDAO groupDAO = new GroupDAOImpl();
+        groupDAO.delete(groupId);
+    }
+
+    @Override
+    public void update(Group group) {
+        GroupDAO groupDAO = new GroupDAOImpl();
+        groupDAO.update(group);
     }
 }

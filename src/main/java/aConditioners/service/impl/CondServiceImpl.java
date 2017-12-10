@@ -1,9 +1,8 @@
-package aRefrigerator.service.impl;
+package aConditioners.service.impl;
 
-import aRefrigerator.dao.CondDAO;
-import aRefrigerator.dao.factory.DAOFactory;
-import aRefrigerator.model.Conditioner;
-import aRefrigerator.service.CondService;
+import aConditioners.dao.factory.DAOFactory;
+import aConditioners.model.Conditioner;
+import aConditioners.service.CondService;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package aRefrigerator.data;
+package aConditioners.data;
 
-import aRefrigerator.model.Conditioner;
+import aConditioners.model.Conditioner;
 
 import java.util.ArrayList;
 import java.util.List;

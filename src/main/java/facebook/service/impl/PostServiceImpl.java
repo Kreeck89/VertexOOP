@@ -2,6 +2,7 @@ package facebook.service.impl;
 
 import facebook.dao.PostDAO;
 import facebook.dao.factory.DAOFactory;
+import facebook.dao.impl.PostDAOImpl;
 import facebook.model.Post;
 import facebook.service.PostService;
 
@@ -34,5 +35,23 @@ public class PostServiceImpl implements PostService {
             return DAOFactory.getPostDAOMethods().getByDate(date);
         }
         return null;
+    }
+
+    @Override
+    public void create(Post post) {
+        PostDAO postDAO = new PostDAOImpl();
+        postDAO.create(post);
+    }
+
+    @Override
+    public void delete(Long postId) {
+        PostDAO postDAO = new PostDAOImpl();
+        postDAO.delete(postId);
+    }
+
+    @Override
+    public void update(Post post) {
+        PostDAO postDAO = new PostDAOImpl();
+        postDAO.update(post);
     }
 }

@@ -1,6 +1,6 @@
-package aRefrigerator.service;
+package aConditioners.service;
 
-import aRefrigerator.model.Conditioner;
+import aConditioners.model.Conditioner;
 
 import java.util.List;
 

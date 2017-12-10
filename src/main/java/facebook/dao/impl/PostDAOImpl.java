@@ -44,4 +44,19 @@ public class PostDAOImpl implements PostDAO {
         }
         return listByDate;
     }
+
+    @Override
+    public void create(Post post) {
+        System.out.println("Post " + post.getTitle() + " created");
+    }
+
+    @Override
+    public void delete(Long postId) {
+        System.out.println("Post with id " + postId + " deleted.");
+    }
+
+    @Override
+    public void update(Post post) {
+        System.out.println("Post " + post.getTitle() + " updated.");
+    }
 }
