@@ -24,9 +24,9 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         Fibonacci fibonacci = new Fibonacci();
-        System.out.println(fibonacci.fibonacci(10));
+        System.out.println(fibonacci.fib(40));
 
-        System.out.println(fibonacci.fib(10));
+        System.out.println(fibonacci.fibonacci(40));
 
     }
 }
