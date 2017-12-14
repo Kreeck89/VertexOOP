@@ -1,6 +1,8 @@
 package homeTaskFromLists.pack8;
 
 /**
+ * Tasks from lists, page 59 (task1);
+ *
  * Check recursion method.
  */
 public class Task1 {
@@ -14,8 +16,11 @@ public class Task1 {
         if (k > 2) {
             System.out.println(k);
             printVariable(k-1);
+        } else if (k < 2) {
+            System.out.println(k);
+            printVariable(k + 1);
         } else {
-            System.out.println("Your number smaller then 2.");
+            System.out.println("Your print is end.");
         }
     }
 }

@@ -7,7 +7,7 @@ import aConditioners.service.factory.ServiceFactory;
 import java.util.List;
 
 /**
- * Tasks from Lists, page 46 (Task3).
+ * Tasks from Lists, page 46 (FactorialN).
  */
 public class CondController {
 

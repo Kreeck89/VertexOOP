@@ -3,7 +3,7 @@ package homeTaskFromLists.pack1;
 import java.util.Scanner;
 
 /**
- * Task from list, page 9 (Task4).
+ * Task from list, page 9 (Fibonacci).
  *
  * enterString() - for enter testing text;
  * enterCharForSearch() - Enter symbol for search(If entered text - will takes with ind=0);
