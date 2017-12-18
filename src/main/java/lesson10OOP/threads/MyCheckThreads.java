@@ -1,5 +1,6 @@
 package lesson10OOP.threads;
 
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -23,7 +24,6 @@ public class MyCheckThreads {
 
         Thread implThread = new Thread(new SetToNewList());
         implThread.start();
-
     }
 
     private static class ThreadEven extends Thread {
